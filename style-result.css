@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+* {
+  
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Merriweather', serif;
+
+}
+#container {
+  width:100%;
+
+}
+header {
+	width:100%;			
+}
+header h1 {
+  font-size:3em;
+  text-align: center;
+}
+
+.banner{
+  position:relative;
+  width:100%;
+  text-align:center;
+}
+
+  .banner ul li{
+      
+      display:inline-block;
+      border-radius:10%;
+      border-bottom:4px black solid;
+      text-shadow:2px -2px 3px grey;
+      margin:2%;
+      font-family:'Bangers';
+      font-size:1.5rem;
+      list-style-type:none;
+      transition-property: transform;
+      transition-duration: 0.5s;
+      
+      
+  }
+
+  .banner ul li:hover{
+      transform:scale(1.3);
+  }
+  .banner ul li a:link, a:visited{
+      color:black;
+  }
+
+  .banner ul li a:active{
+      color:rgb(15, 15, 121);
+  }
+  li a{
+      text-decoration:none;
+  } 
+
+
+
+
+
+
+#menus {
+  width:100%;
+}
+
+#menus div:hover #blur{
+  opacity:0.5;
+
+}
+#menus div:hover a  {
+  transform:scale(1.5);
+}
+
+
+
+#menus > div {
+  position:relative;
+  height:400px;
+  margin-bottom:10px;
+  border-radius:5% 
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5 {
+  width:100%;
+  display:flex;
+
+  align-items: center;
+  justify-content: center;
+  box-shadow:2px 2px 5px black;
+}
+#menus a  {
+  position:absolute;
+  padding:5px;
+  font-size:2em;
+  opacity:1;
+  color:white;
+  text-shadow:3px 3px 5px black;
+  transition:all 0.3s ;
+  z-index:10;
+  text-decoration:none;
+}
+#menu1 {
+  background:url("img/img3.jpg") no-repeat center;
+  background-size:cover;
+}
+#menu2 {
+  background:url("img/img4.jpg") no-repeat center;
+  background-size:cover;
+}
+ #menu3 {
+  background:url("img/img6.jpg") no-repeat center;
+  background-size:cover;
+}
+#menu4 {
+  background:url("img/img5.jpg") no-repeat center;
+  background-size:cover;
+}
+#menu5 {
+  background:url("img/img7.jpg") no-repeat center;
+  background-size:cover;
+  
+}
+footer {
+
+  width:100%;
+  background:#373737;
+  height:200px;
+}
+footer p {
+  font-size:1.2em;
+  color:black;
+  text-align:center;
+   line-height:50px;
+   
+}
+footer a{
+  text-decoration:none;
+  margin-right:15px;
+
+}
+
+#blur{
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-color:grey;
+  opacity:0;
+  z-index:3;
+  border-radius:5%;
+  transition:all 0.3s ;
+  
+}
+
+
+@media all and (min-width:768px) {
+  #menus {
+    display: flex; /* 플렉서블 박스 레이아웃 적용 */
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; /* 여러 줄에 걸쳐 표시 */
+    justify-content: space-between; /* 화면 양쪽에 바짝 붙이기  */
+    
+  }
+  #menu1, #menu2, #menu3, #menu4 {
+    width: 49%;
+    
+  }
+  #menu5 {
+    width: 100%;
+  }
+
+}
+
+@media all and (min-width:992px) {
+  #menu1, #menu2, #menu3, #menu4, #menu5 {
+    width:33%;
+  }
+  #menu5 {
+    margin-left: 0.5%;
+    -ms-flex: 2 2 0;
+    -webkit-flex: 2 2 0;
+    flex: 2 2 0;
+  }
+
+}
+
+@media all and (max-width:768px) {
+  #block1,#block2,#block3{
+    flex-wrap:wrap;
+  }
+}
+
+#block1 {
+  display:flex;
+  margin-top:100px;
+  width:100%;
+
+}
+
+#block1 div{
+  
+  width:100%;
+  height:500px;
+  margin:20px;
+}
+
+
+
+
+#textbox h1{
+  font-size:30px;
+  padding-left:30px;
+}
+
+#textbox p{
+  font-family: 'Nanum Gothic';
+  position:relative;
+  text-align:center;
+  top:40%;
+  font-size:20px;
+  
+}
+
+.img{
+  border-radius: 3%;
+  opacity:0.8;
+  width:100%;
+}
+
+#myimg{
+  background:url("img/img9.jpg") no-repeat center;
+  background-size:cover;
+  background-position:center;
+}
+
+#block2 {
+  display:flex;
+  margin-top:50px;
+  width:100%;
+  
+}
+
+#block2 div{
+  width:100%;
+  height:500px;
+  margin:20px;
+}
+
+#myinfoimg {
+  background:url("img/img10.jpg") no-repeat center;
+  background-size:cover;
+  background-position:center;
+}
+
+
+#block3 {
+  display:flex;
+  width:100%;
+  margin-top:50px;
+  
+}
+
+#block3 div{
+  width:100%;
+  height:500px;
+  margin:20px;
+}
+
+hr{
+  
+  border:solid 1px rgb(70, 63, 63);
+  border-radius:20%;
+  width:97%;
+  margin:40px auto;
+
+}
+
+#schools{
+  position:relative;
+  text-align:center;
+  
+
+  
+}
+
+#textbox ul{
+  font-family: arial;
+  position:relative;
+  text-align:center;
+  top:20%;
+  font-size:20px;
+  list-style-type:none;
+  line-height:50px;
+  
+}
+
+#textbox ul li img{
+  width:20px;
+  
+}
+
+
+
+
+
+
+
+
+body {
+  background: #e6e6e6;
+}
+#textbox { 
+  background: #FFF;
+  font-weight:bold; padding:10px; padding-top:40px;
+  -webkit-box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+     -moz-box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+          box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+}
+
+

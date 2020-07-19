@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hyungjun</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Hyungjun World</h3>
+                <strong>HW</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#content">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#whoAmI">
+                        <i class="fas fa-briefcase"></i>
+                        My work
+                    </a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Who am I
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Introducing myself</a>
+                        </li>
+                        <li>
+                            <a href="#">Strength & Weakness</a>
+                        </li>
+                        <li>
+                            <a href="#">My dream</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-image"></i>
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://github.com/Ryanromaris" class="download">Github</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Ryanromaris" class="article">Github</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Who am I</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="abc">
+
+                <section id="Homes">
+                    <div id="Home1">
+                        <div id="blur"></div>
+                        <p>Hyungjun</p>
+                    </div>
+                    
+                    <div id="Home2">
+                        <div id="blur"></div>
+                        <p>is</p>
+                    </div>
+                    
+                    <div id="Home3">
+                        <div id="blur"></div>
+                        <p>interested</p>
+                    </div>
+                    
+                    <div id="Home4" >
+                        <div id="blur"></div>
+                        <p>in</p>
+                    </div>
+                    
+                    <div id="Home5" >
+                        <div id="blur"></div>
+                        <p>Developing</p>
+                    </div>
+                    <div id="Home6" >
+                        <div id="blur"></div>
+                        <p>Webs</p>
+                    </div>
+                </section>
+
+                <div class="line"></div>
+
+                <h2>Who am I?</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Introduce Myself
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            안녕하세요 저는 개발자를 꿈꾸는 초보 프로그래머 김형준입니다. 저는 최근 웹개발에 관심이 생겨 다양한 방면으로 공부를 하고 있습니다. 매일 스터디카페에 나와 프론트엔드의 여러 툴들을 배우며 익히고 있습니다. 혼자 공부를 하다보니 공부의 방향이나 현업에서 필요한 실질적인 능력이 무엇인지 정보를 얻기 위해 유투브를 통해 현직자들의 실제근무 영상이나, 일에 대한 소개, 공부 커리큘럼 등의 정보를 얻곤 합니다. 프론트엔드의 기초적인 문법을 익힌 후, 조금 더 효율적으로 개발을 하는 팁들을 얻기 위해 Dream Coding 사이트의 강의를 통해 조금더 깊이 있는 공부를 하고 있습니다. 뿐만 아니라 매주 월,수 19:30~22:30 SpartaCoding Club에서 진행하는 8주 완성 웹개발 프로그래밍 반을 이수하고 있습니다. I'm totally in this!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Strength & Weakness
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <장점><br>
+                            - 배려심이 많고 예의 바르게 행동한다.<br>
+                            - 새로운 것을 받아들이는 속도가 빠르다.
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            My dream
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            전공 수업 중, 시스템을 만들어보는 시뮬레이션 과목에 큰 흥미를 느꼈습니다. 그 때, 눈에 보이는 결과물을 만들어내는 것의 즐거움을 알게 되었습니다. 이어 수강하게 된 R을 통한 데이터 분석과목을 통해 데이터를 가시화하며 프로그래밍의 재미와 관심은 더욱 높아졌습니다. 학기를 마치고, 내가 만들고 싶은 것을 만들어 낼 수 있는 능력을 갖추고 싶었고, 개발자의 꿈을 꾸게 되었습니다. 자연스럽게 JAVA공부를 시작하였고, HTML5과 CSS3 그리고 Javascript공부를 하게 되었습니다. 프론트엔드 뿐만 아니라 백엔드도 공부하여 개발에 대한 폭넓은 지식과 깊이를 갖춘 탄탄한 개발자가 되고 싶습니다!
+
+
+                                
+                               
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                
+            </div>
+        </div>
+    </div> 
+
+    <footer>
+        <p><img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F0727_000_13%2F20190517082932211_MRLFR46FI.jpg%2FEEBBD92A4C74C68A.jpg%3Ftype%3Dm120_120&type=mfullfill85_85_white" width=20px height=20px><a href="https://www.facebook.com/profile.php?id=100009678812209" target="_blank"> Facebook</a>
+            <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F0727_000_15%2F20190625081019385_DVRWU60DM.jpg%2F062793072281AD4F.jpg%3Ftype%3Dm120_120&type=mfullfill85_85_white" width=20px height=20px><a href="https://www.instagram.com/hamzzi_new/" target="_blank"> Instagram</a></p>
+        <p>Tel:010-0000-0000</p>
+        <p>Email:ryanromaris@naver.com</p>
+        <p style=color:white;> Copyright ⓒ. All rights reserved.</p>
+    </footer>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+
+</html>
